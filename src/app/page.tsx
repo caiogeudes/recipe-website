@@ -16,12 +16,43 @@ export default function Home() {
       {/* Grid de Receitas */}
       <div className="rounded bg-amber-100 w-5/6 mx-auto flex justify-center">
         <div className="grid grid-cols-3 gap-x-64 gap-y-10 pt-10 pb-10">
-          <div className="rounded bg-white size-72 shadow-lg"></div>
-          <div className="rounded bg-white size-72 shadow-lg"></div>
-          <div className="rounded bg-white size-72 shadow-lg"></div>
-          <div className="rounded bg-white size-72 shadow-lg"></div>
-          <div className="rounded bg-white size-72 shadow-lg"></div>
-          <div className="rounded bg-white size-72 shadow-lg"></div>
+
+          {/* Receita1 */}
+          <div className="rounded bg-white size-72 shadow-lg text-center flex flex-col items-center">
+            <button className="bg-lime-700 text-white pl-8 pr-8 pt-1 pb-1 rounded-b-lg">Acessar</button>
+            <img src="/recipes/coxinha.png" className="flex justify-center pt-5 size-44 w-full pr-3 pl-3"></img>
+            <h1 className="pt-2">Coxinha de grão-de-bico com palmito</h1>
+          </div>
+
+          {/* Receita2 */}
+          <div className="rounded bg-white size-72 shadow-lg text-center flex flex-col items-center">
+            <button className="bg-lime-700 text-white pl-8 pr-8 pt-1 pb-1 rounded-b-lg">Acessar</button>
+            <img src="/recipes/gnocchi.png" className="flex justify-center pt-5 size-44 w-full pr-3 pl-3"></img>
+            <h1 className="pt-2">Gnocchi com ragu de cogumelos e crispy de alho-poró</h1>
+          </div>
+
+          {/* Receita3 */}
+          <div className="rounded bg-white size-72 shadow-lg text-center flex flex-col items-center">
+            <button className="bg-lime-700 text-white pl-8 pr-8 pt-1 pb-1 rounded-b-lg">Acessar</button>
+            <img src="/recipes/ravioli.png" className="flex justify-center pt-5 size-44 w-full pr-3 pl-3"></img>
+            <h1 className="pt-2">Ravióli ao creme de palmito</h1>
+          </div>
+
+          {/* Receita4 */}
+          <div className="rounded bg-white size-72 shadow-lg text-center flex flex-col items-center">
+            <button className="bg-lime-700 text-white pl-8 pr-8 pt-1 pb-1 rounded-b-lg">Acessar</button>
+          </div>
+
+          {/* Receita5 */}
+          <div className="rounded bg-white size-72 shadow-lg text-center flex flex-col items-center">
+            <button className="bg-lime-700 text-white pl-8 pr-8 pt-1 pb-1 rounded-b-lg">Acessar</button>
+          </div>
+
+          {/* Receita6 */}
+          <div className="rounded bg-white size-72 shadow-lg text-center flex flex-col items-center">
+            <button className="bg-lime-700 text-white pl-8 pr-8 pt-1 pb-1 rounded-b-lg">Acessar</button>
+          </div>
+
         </div>
       </div>
 
