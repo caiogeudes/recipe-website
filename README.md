@@ -5,6 +5,16 @@ Para a execução:
 ``
 npm run dev
 ``
+
+O arquivo .env deve ter o seguinte campo:  
+``
+DATABASE_URL="postgres://user:password@host:port/database"
+``
+
+E para regenerar o conector Prisma:
+``
+npx prisma generate
+``
 <hr>
 Design do projeto em:
 
