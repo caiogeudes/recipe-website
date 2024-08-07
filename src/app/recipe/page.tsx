@@ -1,14 +1,15 @@
+'use client' // importante para usar a getRecipe();
 import { recipeCard } from "@/components/recipeCard";
 import { header } from "@/components/header";
 import { body, title } from "@/components/body";
 import { getRecipe } from "@/utils/getRecipe";
 
 export default async function Home() {
-    const recipe = await getRecipe(1); //id 1 é apenas um valor de teste
+    const recipe = await getRecipe();
+
     return (
         <main>
             {header()}
-
 
             {title(recipe.name)}
 
