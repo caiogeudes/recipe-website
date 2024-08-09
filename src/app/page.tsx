@@ -11,9 +11,9 @@ export default function Home() {
 
       {body(
         <>
-          {recipeCard("/recipes/coxinha.png", "Coxinha de grão-de-bico com palmito")}
-          {recipeCard("/recipes/gnocchi.png", "Gnocchi com ragu de cogumelos e crispy de alho-poró")}
-          {recipeCard("/recipes/ravioli.png", "Ravióli ao creme de palmito")}
+          {recipeCard("/recipes/coxinha.png", "Coxinha de grão-de-bico com palmito", "1")}
+          {recipeCard("/recipes/gnocchi.png", "Gnocchi com ragu de cogumelos e crispy de alho-poró", "2")}
+          {recipeCard("/recipes/ravioli.png", "Ravióli ao creme de palmito", "3")}
         </>
       )}
     </main>
